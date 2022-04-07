@@ -20,6 +20,10 @@ ol {
   list-style: none;
   margin: 0;
 }
+a:current {
+  fill: #2196f3;
+}
+
 /* ---------------------------------ШАПКА САЙТА----------------------------------- */
 .logo {
   font-family: Raleway;
