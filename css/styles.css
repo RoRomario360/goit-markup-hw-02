@@ -57,6 +57,9 @@ a:current {
 .header-nav-link:focus {
   color: var(--hover-buton-color);
 }
+.header-nav-link.current {
+  color: #2196f3;
+}
 
 .auth-nav-link {
   font-style: normal;
@@ -128,8 +131,6 @@ a:current {
   color: var(--main-text-title-color);
 }
 .section-benefits-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -153,8 +154,6 @@ a:current {
   color: var(--main-text-title-color);
 }
 .our-team-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -176,7 +175,7 @@ a:current {
   color: var(--header-color);
 }
 .footer-adress {
-  ont-style: normal;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -190,6 +189,12 @@ a:current {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-adress:hover {
+  color: #2196f3;
+}
+.footer-contacts:hover {
+  color: #2196f3;
 }
 
 /* ---------------------------------СТРАНИЦА ПОРТФОЛИО----------------------------------- */
@@ -226,8 +231,6 @@ a:current {
   color: var(--main-text-title-color);
 }
 .portfolio-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
