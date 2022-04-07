@@ -11,7 +11,15 @@ body {
   --logo-color: #000000;
   --button-portfolio-colour: #f5f4fa;
 }
-
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
 /* ---------------------------------ШАПКА САЙТА----------------------------------- */
 .logo {
   font-family: Raleway;
