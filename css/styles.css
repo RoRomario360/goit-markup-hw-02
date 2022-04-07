@@ -9,6 +9,7 @@ body {
   --second-text-title-color: #757575;
   --hover-buton-color: #2196f3;
   --logo-color: #000000;
+  --button-portfolio-colour: #f5f4fa;
 }
 
 /* ---------------------------------ШАПКА САЙТА----------------------------------- */
@@ -49,7 +50,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-text-title-color);
 }
@@ -81,13 +82,11 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   letter-spacing: 0.06em;
   color: var(--header-color);
   background-color: #2196f3;
 }
-
-color: rgba(255, 255, 255, 0.6);
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -113,7 +112,7 @@ color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--second-text-title-color);
 }
@@ -172,4 +171,45 @@ color: rgba(255, 255, 255, 0.6);
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* ---------------------------------СТРАНИЦА ПОРТФОЛИО----------------------------------- */
+
+.portfolio-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  width: 128px;
+  height: 38px;
+  border: 0px;
+  border-radius: 4px;
+  background-color: var(--button-portfolio-colour);
+  color: var(--main-text-title-color);
+}
+.portfolio-button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.portfolio-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.portfolio-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-title-color);
+}
+.portfolio-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--second-text-title-color);
 }
