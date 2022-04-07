@@ -1,0 +1,11 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", Tahoma, sans-serif;
+}
+:root {
+  --header-color: #ffffff;
+  --hero-title-color: #ffffff;
+  --main-text-title-color: #212121;
+  --second-text-title-color: #757575;
+  --span-buton-color: #2196f3;
+}
